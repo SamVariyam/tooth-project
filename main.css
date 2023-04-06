@@ -19,6 +19,38 @@ html{
     align-items:center;
     height:100%;
   }
+/*media query*/
+@media only screen and (max-width: 600px) {
+  .header{
+    padding:10px;
+    text-align:center;
+  }
+  .content-container{
+    display:flex;
+    flex-direction: row;
+  }
+  .buttons{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+  }
+  .button{
+    font-size:15px;
+    height: 3vh;
+    width:150px;
+  }
+  .reset-button{
+    height:3vh;
+    width:3vh;
+    padding:2.5vh;
+  }
+  .airtable-item{
+    font-size:10px;
+    gap:5px;
+    padding:0;
+    width:30%;
+  }
+}
 /*top heading*/
   .header{
       background-color:#a4454e;
